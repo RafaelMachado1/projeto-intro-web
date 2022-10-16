@@ -1,0 +1,117 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Img/football-488714_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    Padding: 20px 50px 0px 50px;
+    color: white;
+
+}
+
+
+main {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.inputEbotao {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+   
+}
+
+#lista-times {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+figure {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tamanhoImg{
+    width: 200px;
+    
+}
+
+figcaption {
+    text-align: center;
+    font-size: 9px;
+
+
+}
+
+
+footer {
+    position: fixed;
+    color: white;
+    Padding: 50px 50px 10px 50px;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+@media(max-width: 487px){
+    .tamanhoImg{
+        width: 150px;
+    }
+}
+
+
+@media(max-width: 389px){
+    .tamanhoImg{
+        width: 120px;
+    }
+
+    figure{
+        width: 90%;
+        margin-left: 6px;
+    }
+
+    main{
+        transform: translateY(-50px);
+    }
+    
+}
+
+@media(max-width: 281px){
+    .tamanhoImg{
+        width: 90px;
+    }
+
+    figure{
+        width: 90%;
+        margin-left: 6px;
+    }
+
+    main{
+        transform: translateY(-50px);
+    }
+}
